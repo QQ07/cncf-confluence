@@ -13,7 +13,7 @@ default_args = {
 dag = DAG(
     'weather_ingestion_dag',
     default_args=default_args,
-    schedule_interval='@daily',
+    schedule_interval='*/5 * * * *',
     catchup=False
 )
 

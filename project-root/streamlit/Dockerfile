@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . .
 
-RUN pip install --no-cache-dir streamlit psycopg2-binary pandas
+RUN pip install --no-cache-dir streamlit psycopg2-binary pandas plotly
 
 EXPOSE 8501
 

@@ -21,6 +21,7 @@ services:
       AIRFLOW__CORE__LOAD_EXAMPLES: 'False'
       AIRFLOW__LOGGING__LOGGING_LEVEL: INFO
       AIRFLOW__LOGGING__BASE_LOG_FOLDER: /opt/airflow/logs
+      AIRFLOW__CORE__DEFAULT_TIMEZONE: asia/kolkata
     volumes:
       - ./airflow/dags:/opt/airflow/dags
       - ./scripts:/opt/airflow/scripts
@@ -44,11 +45,11 @@ services:
       AIRFLOW__CORE__LOAD_EXAMPLES: 'False'
       AIRFLOW__LOGGING__LOGGING_LEVEL: INFO
       AIRFLOW__LOGGING__BASE_LOG_FOLDER: /opt/airflow/logs
+      AIRFLOW__CORE__DEFAULT_TIMEZONE: asia/kolkata
     volumes:
       - ./airflow/dags:/opt/airflow/dags
       - ./scripts:/opt/airflow/scripts
       - ./airflow/logs:/opt/airflow/logs
-      - data:/opt/airflow/data
     command: airflow scheduler
     depends_on:
       - postgres
@@ -61,10 +62,9 @@ services:
       - "8501:8501"
     volumes:
       - ./streamlit:/app
-      - data:/data
+      - ./scripts:/scripts
     depends_on:
       - postgres
 
 volumes:
   postgres-db-volume:
-  data:
