@@ -64,7 +64,8 @@ for district, comm_info in commodities_data.items():
         rows.append(row)
 
 # Write to CSV
-with open('combined_data.csv', 'w', newline='', encoding='utf-8') as f:
+# with open('combined_data.csv', 'w', newline='', encoding='utf-8') as f:
+with open('/opt/airflow/data/combined_data.csv', 'w', newline='', encoding='utf-8') as f:
     writer = csv.DictWriter(f, fieldnames=csv_fields)
     writer.writeheader()
     writer.writerows(rows)

@@ -17,12 +17,20 @@ services:
     environment:
       AIRFLOW__CORE__EXECUTOR: LocalExecutor
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
-      AIRFLOW__WEBSERVER__SECRET_KEY: mysecret
+      AIRFLOW__WEBSERVER__SECRET_KEY: "a_secure_random_secret_key_123456789"
+      AIRFLOW__CORE__LOAD_EXAMPLES: 'False'
+      AIRFLOW__LOGGING__LOGGING_LEVEL: INFO
+      AIRFLOW__LOGGING__BASE_LOG_FOLDER: /opt/airflow/logs
     volumes:
       - ./airflow/dags:/opt/airflow/dags
       - ./scripts:/opt/airflow/scripts
       - ./airflow/requirements.txt:/requirements.txt
-    command: bash -c "airflow db upgrade && pip install -r /requirements.txt && airflow webserver"
+      - ./airflow/logs:/opt/airflow/logs
+    command: >
+      bash -c "airflow db upgrade && \
+               pip install -r /requirements.txt && \
+               airflow users create --username admin --firstname admin --lastname admin --role Admin --email admin@example.com --password admin && \
+               airflow webserver"
     ports:
       - "8080:8080"
     depends_on:
@@ -33,9 +41,14 @@ services:
     environment:
       AIRFLOW__CORE__EXECUTOR: LocalExecutor
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
+      AIRFLOW__CORE__LOAD_EXAMPLES: 'False'
+      AIRFLOW__LOGGING__LOGGING_LEVEL: INFO
+      AIRFLOW__LOGGING__BASE_LOG_FOLDER: /opt/airflow/logs
     volumes:
       - ./airflow/dags:/opt/airflow/dags
       - ./scripts:/opt/airflow/scripts
+      - ./airflow/logs:/opt/airflow/logs
+      - data:/opt/airflow/data
     command: airflow scheduler
     depends_on:
       - postgres
@@ -48,8 +61,10 @@ services:
       - "8501:8501"
     volumes:
       - ./streamlit:/app
+      - data:/data
     depends_on:
       - postgres
 
 volumes:
   postgres-db-volume:
+  data:

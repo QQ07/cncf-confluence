@@ -9,7 +9,9 @@ st.title("🌾 Commodity Price & Weather Dashboard")
 # Load CSV
 @st.cache_data
 def load_data():
-    df = pd.read_csv("D:/COLLEGE/Hackathon/CNCF/cncf-confluence/project-root/scripts/combined_data.csv")
+    # df = pd.read_csv("D:/COLLEGE/Hackathon/CNCF/cncf-confluence/project-root/scripts/combined_data.csv")
+    df = pd.read_csv("/data/combined_data.csv")
+    
     df["arrival_date"] = pd.to_datetime(df["arrival_date"], format="%d/%m/%Y")
     return df
 
