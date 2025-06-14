@@ -6,10 +6,32 @@ from datetime import datetime, timedelta
 st.set_page_config(page_title="Commodity Dashboard", layout="wide")
 st.title("🌾 Commodity Price & Weather Dashboard")
 
+st.markdown("""
+    <style>
+    .top-right-button {
+        position: absolute;
+        top: 1.5rem;
+        right: 2rem;
+        z-index: 9999;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
+# Place the button in a container with the custom class
+st.markdown('<div class="top-right-button">', unsafe_allow_html=True)
+with open("user-manual.pdf", "rb") as f:
+    st.download_button(
+        label="📖 User Manual",
+        data=f,
+        file_name="user-manual.pdf",
+        mime="application/pdf"
+    )
+st.markdown('</div>', unsafe_allow_html=True)
+
 # Load CSV
 @st.cache_data
 def load_data():
-    # df = pd.read_csv("D:/COLLEGE/Hackathon/CNCF/cncf-confluence/project-root/scripts/combined_data.csv")
+    # df = pd.read_csv("D:\\Coding\\cncf\\cncf-confluence\\project-root\\scripts\\combined_data.csv")
     df = pd.read_csv("/scripts/combined_data.csv")
     
     df["arrival_date"] = pd.to_datetime(df["arrival_date"], format="%d/%m/%Y")
