@@ -5,7 +5,7 @@ from datetime import datetime
 def fetch_weather_data():
     url = "https://api.weatherapi.com/v1/current.json"
     params = {
-        "key": "your_weather_api_key",
+        "key": "8ed720fd610444ce8e455110251406",
         "q": "Pune",
         "aqi": "yes"
     }
