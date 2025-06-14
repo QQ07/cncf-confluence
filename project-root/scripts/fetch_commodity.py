@@ -70,6 +70,3 @@ def fetch_commodity_data():
         print(f"Error saving data to file: {e}")
     
     return all_districts_data
-
-if __name__ == "__main__":
-    fetch_commodity_data()
