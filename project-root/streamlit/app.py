@@ -54,6 +54,31 @@ col2.metric("🧪 Avg PM2.5", f"{filtered_df['pm2_5'].mean():.1f}")
 col3.metric("💧 Avg Humidity (%)", f"{filtered_df['humidity'].mean():.1f}")
 col4.metric("💰 Avg Modal Price (₹)", f"{filtered_df['modal_price'].mean():.0f}")
 
+# Chart: Modal Price by Market and Commodity
+st.subheader("🏪 Modal Price by Market and Commodity")
+
+# Dropdown to select commodity for this chart
+bar_commodities = sorted(filtered_df["commodity"].unique())
+selected_bar_commodity = st.selectbox("Select Commodity for Comparison", ["All"] + bar_commodities, key="bar_commodity")
+
+bar_df = filtered_df.copy()
+if selected_bar_commodity != "All":
+    bar_df = bar_df[bar_df["commodity"] == selected_bar_commodity]
+
+bar_df = bar_df.groupby(["market", "commodity"])["modal_price"].mean().reset_index()
+
+fig5 = px.bar(
+    bar_df,
+    x="market",
+    y="modal_price",
+    color="commodity",
+    title="Modal Price Comparison across Markets by Commodity",
+    barmode="group",
+    height=600
+)
+fig5.update_layout(xaxis_tickangle=45)
+st.plotly_chart(fig5, use_container_width=True)
+
 # Chart: Temp vs Modal Price
 st.subheader("📈 Temperature vs Modal Price")
 fig1 = px.scatter(
