@@ -1,9 +1,9 @@
 {
   "Ahmedabad": {
     "created": 1627939168,
-    "updated": 1749884421,
+    "updated": 1749888256,
     "created_date": "2021-08-02T21:19:28Z",
-    "updated_date": "2025-06-14T07:00:21Z",
+    "updated_date": "2025-06-14T08:04:16Z",
     "active": "1",
     "index_name": "9ef84268-d588-465a-a308-a864a43d0070",
     "org": [
@@ -123,18 +123,6 @@
         "state": "Gujarat",
         "district": "Ahmedabad",
         "market": "Dholka",
-        "commodity": "Wheat",
-        "variety": "Other",
-        "grade": "FAQ",
-        "arrival_date": "14/06/2025",
-        "min_price": "2385",
-        "max_price": "2575",
-        "modal_price": "2505"
-      },
-      {
-        "state": "Gujarat",
-        "district": "Ahmedabad",
-        "market": "Dholka",
         "commodity": "Paddy(Dhan)(Common)",
         "variety": "Other",
         "grade": "FAQ",
@@ -142,14 +130,26 @@
         "min_price": "1585",
         "max_price": "2300",
         "modal_price": "2300"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Ahmedabad",
+        "market": "Dholka",
+        "commodity": "Wheat",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "14/06/2025",
+        "min_price": "2385",
+        "max_price": "2575",
+        "modal_price": "2505"
       }
     ]
   },
   "Amreli": {
     "created": 1627939168,
-    "updated": 1749884421,
+    "updated": 1749888256,
     "created_date": "2021-08-02T21:19:28Z",
-    "updated_date": "2025-06-14T07:00:21Z",
+    "updated_date": "2025-06-14T08:04:16Z",
     "active": "1",
     "index_name": "9ef84268-d588-465a-a308-a864a43d0070",
     "org": [
@@ -260,35 +260,11 @@
     "message": "Resource lists",
     "version": "2.2.0",
     "status": "ok",
-    "total": 10,
+    "total": 16,
     "count": 10,
     "limit": "10",
     "offset": "0",
     "records": [
-      {
-        "state": "Gujarat",
-        "district": "Amreli",
-        "market": "Damnagar",
-        "commodity": "Cauliflower",
-        "variety": "Cauliflower",
-        "grade": "FAQ",
-        "arrival_date": "14/06/2025",
-        "min_price": "3650",
-        "max_price": "4550",
-        "modal_price": "4200"
-      },
-      {
-        "state": "Gujarat",
-        "district": "Amreli",
-        "market": "Damnagar",
-        "commodity": "Lemon",
-        "variety": "Lemon",
-        "grade": "FAQ",
-        "arrival_date": "14/06/2025",
-        "min_price": "3250",
-        "max_price": "4050",
-        "modal_price": "3800"
-      },
       {
         "state": "Gujarat",
         "district": "Amreli",
@@ -304,50 +280,14 @@
       {
         "state": "Gujarat",
         "district": "Amreli",
-        "market": "Damnagar",
-        "commodity": "Guar",
-        "variety": "Gwar",
-        "grade": "FAQ",
-        "arrival_date": "14/06/2025",
-        "min_price": "5350",
-        "max_price": "6550",
-        "modal_price": "6000"
-      },
-      {
-        "state": "Gujarat",
-        "district": "Amreli",
-        "market": "Damnagar",
-        "commodity": "Ginger(Green)",
-        "variety": "Green Ginger",
-        "grade": "FAQ",
-        "arrival_date": "14/06/2025",
-        "min_price": "2650",
-        "max_price": "3550",
-        "modal_price": "3200"
-      },
-      {
-        "state": "Gujarat",
-        "district": "Amreli",
-        "market": "Damnagar",
-        "commodity": "Tomato",
-        "variety": "Local",
+        "market": "Dhari",
+        "commodity": "Bengal Gram(Gram)(Whole)",
+        "variety": "Other",
         "grade": "Non-FAQ",
         "arrival_date": "14/06/2025",
-        "min_price": "3500",
-        "max_price": "4050",
-        "modal_price": "3850"
-      },
-      {
-        "state": "Gujarat",
-        "district": "Amreli",
-        "market": "Damnagar",
-        "commodity": "Brinjal",
-        "variety": "Other",
-        "grade": "FAQ",
-        "arrival_date": "14/06/2025",
-        "min_price": "1350",
-        "max_price": "2500",
-        "modal_price": "2050"
+        "min_price": "4825",
+        "max_price": "5500",
+        "modal_price": "5260"
       },
       {
         "state": "Gujarat",
@@ -365,18 +305,6 @@
         "state": "Gujarat",
         "district": "Amreli",
         "market": "Damnagar",
-        "commodity": "Coriander(Leaves)",
-        "variety": "Coriander",
-        "grade": "FAQ",
-        "arrival_date": "14/06/2025",
-        "min_price": "4250",
-        "max_price": "5050",
-        "modal_price": "4800"
-      },
-      {
-        "state": "Gujarat",
-        "district": "Amreli",
-        "market": "Damnagar",
         "commodity": "Green Chilli",
         "variety": "Green Chilly",
         "grade": "FAQ",
@@ -384,14 +312,86 @@
         "min_price": "3650",
         "max_price": "4550",
         "modal_price": "4050"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Amreli",
+        "market": "Dhari",
+        "commodity": "Wheat",
+        "variety": "Lokwan Gujrat",
+        "grade": "FAQ",
+        "arrival_date": "14/06/2025",
+        "min_price": "2450",
+        "max_price": "2700",
+        "modal_price": "2580"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Amreli",
+        "market": "Damnagar",
+        "commodity": "Brinjal",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "14/06/2025",
+        "min_price": "1350",
+        "max_price": "2500",
+        "modal_price": "2050"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Amreli",
+        "market": "Damnagar",
+        "commodity": "Guar",
+        "variety": "Gwar",
+        "grade": "FAQ",
+        "arrival_date": "14/06/2025",
+        "min_price": "5350",
+        "max_price": "6550",
+        "modal_price": "6000"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Amreli",
+        "market": "Dhari",
+        "commodity": "Arhar (Tur/Red Gram)(Whole)",
+        "variety": "777 New Ind",
+        "grade": "Non-FAQ",
+        "arrival_date": "14/06/2025",
+        "min_price": "5045",
+        "max_price": "6005",
+        "modal_price": "5590"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Amreli",
+        "market": "Damnagar",
+        "commodity": "Cauliflower",
+        "variety": "Cauliflower",
+        "grade": "FAQ",
+        "arrival_date": "14/06/2025",
+        "min_price": "3650",
+        "max_price": "4550",
+        "modal_price": "4200"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Amreli",
+        "market": "Damnagar",
+        "commodity": "Coriander(Leaves)",
+        "variety": "Coriander",
+        "grade": "FAQ",
+        "arrival_date": "14/06/2025",
+        "min_price": "4250",
+        "max_price": "5050",
+        "modal_price": "4800"
       }
     ]
   },
   "Anand": {
     "created": 1627939168,
-    "updated": 1749884421,
+    "updated": 1749888256,
     "created_date": "2021-08-02T21:19:28Z",
-    "updated_date": "2025-06-14T07:00:21Z",
+    "updated_date": "2025-06-14T08:04:16Z",
     "active": "1",
     "index_name": "9ef84268-d588-465a-a308-a864a43d0070",
     "org": [
@@ -511,6 +511,66 @@
         "state": "Gujarat",
         "district": "Anand",
         "market": "Anand(Veg,Yard,Anand)",
+        "commodity": "Potato",
+        "variety": "Potato",
+        "grade": "FAQ",
+        "arrival_date": "14/06/2025",
+        "min_price": "750",
+        "max_price": "1250",
+        "modal_price": "1000"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Anand",
+        "market": "Anand(Veg,Yard,Anand)",
+        "commodity": "Tomato",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "14/06/2025",
+        "min_price": "1500",
+        "max_price": "2000",
+        "modal_price": "1750"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Anand",
+        "market": "Anand(Veg,Yard,Anand)",
+        "commodity": "Cauliflower",
+        "variety": "Cauliflower",
+        "grade": "FAQ",
+        "arrival_date": "14/06/2025",
+        "min_price": "1000",
+        "max_price": "1500",
+        "modal_price": "1250"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Anand",
+        "market": "Anand(Veg,Yard,Anand)",
+        "commodity": "Bhindi(Ladies Finger)",
+        "variety": "Bhindi",
+        "grade": "FAQ",
+        "arrival_date": "14/06/2025",
+        "min_price": "3000",
+        "max_price": "3500",
+        "modal_price": "3250"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Anand",
+        "market": "Anand(Veg,Yard,Anand)",
+        "commodity": "Bottle gourd",
+        "variety": "Bottle Gourd",
+        "grade": "FAQ",
+        "arrival_date": "14/06/2025",
+        "min_price": "400",
+        "max_price": "500",
+        "modal_price": "450"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Anand",
+        "market": "Anand(Veg,Yard,Anand)",
         "commodity": "Cabbage",
         "variety": "Cabbage",
         "grade": "FAQ",
@@ -535,30 +595,6 @@
         "state": "Gujarat",
         "district": "Anand",
         "market": "Anand(Veg,Yard,Anand)",
-        "commodity": "Bhindi(Ladies Finger)",
-        "variety": "Bhindi",
-        "grade": "FAQ",
-        "arrival_date": "14/06/2025",
-        "min_price": "3000",
-        "max_price": "3500",
-        "modal_price": "3250"
-      },
-      {
-        "state": "Gujarat",
-        "district": "Anand",
-        "market": "Anand(Veg,Yard,Anand)",
-        "commodity": "Cauliflower",
-        "variety": "Cauliflower",
-        "grade": "FAQ",
-        "arrival_date": "14/06/2025",
-        "min_price": "1000",
-        "max_price": "1500",
-        "modal_price": "1250"
-      },
-      {
-        "state": "Gujarat",
-        "district": "Anand",
-        "market": "Anand(Veg,Yard,Anand)",
         "commodity": "Green Chilli",
         "variety": "Green Chilly",
         "grade": "FAQ",
@@ -571,18 +607,6 @@
         "state": "Gujarat",
         "district": "Anand",
         "market": "Anand(Veg,Yard,Anand)",
-        "commodity": "Bottle gourd",
-        "variety": "Bottle Gourd",
-        "grade": "FAQ",
-        "arrival_date": "14/06/2025",
-        "min_price": "400",
-        "max_price": "500",
-        "modal_price": "450"
-      },
-      {
-        "state": "Gujarat",
-        "district": "Anand",
-        "market": "Anand(Veg,Yard,Anand)",
         "commodity": "Onion",
         "variety": "Onion",
         "grade": "FAQ",
@@ -590,38 +614,14 @@
         "min_price": "750",
         "max_price": "1500",
         "modal_price": "1125"
-      },
-      {
-        "state": "Gujarat",
-        "district": "Anand",
-        "market": "Anand(Veg,Yard,Anand)",
-        "commodity": "Potato",
-        "variety": "Potato",
-        "grade": "FAQ",
-        "arrival_date": "14/06/2025",
-        "min_price": "750",
-        "max_price": "1250",
-        "modal_price": "1000"
-      },
-      {
-        "state": "Gujarat",
-        "district": "Anand",
-        "market": "Anand(Veg,Yard,Anand)",
-        "commodity": "Tomato",
-        "variety": "Other",
-        "grade": "FAQ",
-        "arrival_date": "14/06/2025",
-        "min_price": "1500",
-        "max_price": "2000",
-        "modal_price": "1750"
       }
     ]
   },
   "Banaskanth": {
     "created": 1627939168,
-    "updated": 1749884421,
+    "updated": 1749888256,
     "created_date": "2021-08-02T21:19:28Z",
-    "updated_date": "2025-06-14T07:00:21Z",
+    "updated_date": "2025-06-14T08:04:16Z",
     "active": "1",
     "index_name": "9ef84268-d588-465a-a308-a864a43d0070",
     "org": [
@@ -732,8 +732,8 @@
     "message": "Resource lists",
     "version": "2.2.0",
     "status": "ok",
-    "total": 4,
-    "count": 4,
+    "total": 6,
+    "count": 6,
     "limit": "10",
     "offset": "0",
     "records": [
@@ -784,14 +784,38 @@
         "min_price": "6400",
         "max_price": "6405",
         "modal_price": "6405"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Banaskanth",
+        "market": "Vav",
+        "commodity": "Castor Seed",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "14/06/2025",
+        "min_price": "6490",
+        "max_price": "6535",
+        "modal_price": "6500"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Banaskanth",
+        "market": "Vav",
+        "commodity": "Cummin Seed(Jeera)",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "14/06/2025",
+        "min_price": "15500",
+        "max_price": "19405",
+        "modal_price": "18555"
       }
     ]
   },
   "Dahod": {
     "created": 1627939168,
-    "updated": 1749884421,
+    "updated": 1749888256,
     "created_date": "2021-08-02T21:19:28Z",
-    "updated_date": "2025-06-14T07:00:21Z",
+    "updated_date": "2025-06-14T08:04:16Z",
     "active": "1",
     "index_name": "9ef84268-d588-465a-a308-a864a43d0070",
     "org": [
@@ -902,22 +926,82 @@
     "message": "Resource lists",
     "version": "2.2.0",
     "status": "ok",
-    "total": 2,
-    "count": 2,
+    "total": 22,
+    "count": 10,
     "limit": "10",
     "offset": "0",
     "records": [
       {
         "state": "Gujarat",
         "district": "Dahod",
-        "market": "Davgadbaria(Piplod)",
-        "commodity": "Paddy(Dhan)(Common)",
-        "variety": "Common",
+        "market": "Dahod",
+        "commodity": "Bengal Gram(Gram)(Whole)",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "14/06/2025",
+        "min_price": "5475",
+        "max_price": "5500",
+        "modal_price": "5485"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Dahod",
+        "market": "Dahod",
+        "commodity": "Maize",
+        "variety": "Yellow",
+        "grade": "FAQ",
+        "arrival_date": "14/06/2025",
+        "min_price": "2150",
+        "max_price": "2310",
+        "modal_price": "2250"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Dahod",
+        "market": "Dahod",
+        "commodity": "Sesamum(Sesame,Gingelly,Til)",
+        "variety": "White",
         "grade": "Non-FAQ",
         "arrival_date": "14/06/2025",
-        "min_price": "1500",
-        "max_price": "1520",
-        "modal_price": "1510"
+        "min_price": "7500",
+        "max_price": "8500",
+        "modal_price": "8000"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Dahod",
+        "market": "Dahod",
+        "commodity": "Castor Seed",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "14/06/2025",
+        "min_price": "5800",
+        "max_price": "5900",
+        "modal_price": "5850"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Dahod",
+        "market": "Dahod",
+        "commodity": "Paddy(Dhan)(Common)",
+        "variety": "Paddy fine",
+        "grade": "Non-FAQ",
+        "arrival_date": "14/06/2025",
+        "min_price": "1900",
+        "max_price": "1950",
+        "modal_price": "1925"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Dahod",
+        "market": "Dahod",
+        "commodity": "Wheat",
+        "variety": "Wheat",
+        "grade": "FAQ",
+        "arrival_date": "14/06/2025",
+        "min_price": "2605",
+        "max_price": "2620",
+        "modal_price": "2615"
       },
       {
         "state": "Gujarat",
@@ -930,14 +1014,50 @@
         "min_price": "1500",
         "max_price": "1520",
         "modal_price": "1510"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Dahod",
+        "market": "Dahod",
+        "commodity": "Arhar (Tur/Red Gram)(Whole)",
+        "variety": "Other",
+        "grade": "Non-FAQ",
+        "arrival_date": "14/06/2025",
+        "min_price": "5200",
+        "max_price": "5600",
+        "modal_price": "5500"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Dahod",
+        "market": "Dahod",
+        "commodity": "Maize",
+        "variety": "White (SAFED)",
+        "grade": "FAQ",
+        "arrival_date": "14/06/2025",
+        "min_price": "2130",
+        "max_price": "3075",
+        "modal_price": "2700"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Dahod",
+        "market": "Dahod",
+        "commodity": "Soyabean",
+        "variety": "Soyabeen",
+        "grade": "Non-FAQ",
+        "arrival_date": "14/06/2025",
+        "min_price": "4125",
+        "max_price": "4255",
+        "modal_price": "4175"
       }
     ]
   },
   "Gandhinagar": {
     "created": 1627939168,
-    "updated": 1749884421,
+    "updated": 1749888256,
     "created_date": "2021-08-02T21:19:28Z",
-    "updated_date": "2025-06-14T07:00:21Z",
+    "updated_date": "2025-06-14T08:04:16Z",
     "active": "1",
     "index_name": "9ef84268-d588-465a-a308-a864a43d0070",
     "org": [
@@ -1056,30 +1176,6 @@
       {
         "state": "Gujarat",
         "district": "Gandhinagar",
-        "market": "Mansa(Manas Veg Yard)",
-        "commodity": "Bottle gourd",
-        "variety": "Other",
-        "grade": "FAQ",
-        "arrival_date": "14/06/2025",
-        "min_price": "250",
-        "max_price": "800",
-        "modal_price": "400"
-      },
-      {
-        "state": "Gujarat",
-        "district": "Gandhinagar",
-        "market": "Mansa(Manas Veg Yard)",
-        "commodity": "Green Chilli",
-        "variety": "Other",
-        "grade": "FAQ",
-        "arrival_date": "14/06/2025",
-        "min_price": "3500",
-        "max_price": "4000",
-        "modal_price": "3500"
-      },
-      {
-        "state": "Gujarat",
-        "district": "Gandhinagar",
         "market": "Kalol",
         "commodity": "Guar Seed(Cluster Beans Seed)",
         "variety": "Other",
@@ -1093,61 +1189,13 @@
         "state": "Gujarat",
         "district": "Gandhinagar",
         "market": "Mansa(Manas Veg Yard)",
-        "commodity": "Guar",
+        "commodity": "Bottle gourd",
         "variety": "Other",
         "grade": "FAQ",
         "arrival_date": "14/06/2025",
-        "min_price": "7000",
-        "max_price": "10500",
-        "modal_price": "8000"
-      },
-      {
-        "state": "Gujarat",
-        "district": "Gandhinagar",
-        "market": "Kalol",
-        "commodity": "Castor Seed",
-        "variety": "Other",
-        "grade": "FAQ",
-        "arrival_date": "14/06/2025",
-        "min_price": "6000",
-        "max_price": "6535",
-        "modal_price": "6400"
-      },
-      {
-        "state": "Gujarat",
-        "district": "Gandhinagar",
-        "market": "Mansa(Manas Veg Yard)",
-        "commodity": "Cucumbar(Kheera)",
-        "variety": "Other",
-        "grade": "FAQ",
-        "arrival_date": "14/06/2025",
-        "min_price": "2500",
-        "max_price": "3000",
-        "modal_price": "2500"
-      },
-      {
-        "state": "Gujarat",
-        "district": "Gandhinagar",
-        "market": "Mansa(Manas Veg Yard)",
-        "commodity": "Mango",
-        "variety": "Other",
-        "grade": "Medium",
-        "arrival_date": "14/06/2025",
-        "min_price": "2500",
-        "max_price": "5000",
-        "modal_price": "3000"
-      },
-      {
-        "state": "Gujarat",
-        "district": "Gandhinagar",
-        "market": "Mansa(Manas Veg Yard)",
-        "commodity": "Bhindi(Ladies Finger)",
-        "variety": "Other",
-        "grade": "FAQ",
-        "arrival_date": "14/06/2025",
-        "min_price": "4500",
-        "max_price": "5000",
-        "modal_price": "4500"
+        "min_price": "250",
+        "max_price": "800",
+        "modal_price": "400"
       },
       {
         "state": "Gujarat",
@@ -1164,14 +1212,86 @@
       {
         "state": "Gujarat",
         "district": "Gandhinagar",
+        "market": "Kalol",
+        "commodity": "Wheat",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "14/06/2025",
+        "min_price": "2450",
+        "max_price": "2625",
+        "modal_price": "2550"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Gandhinagar",
         "market": "Mansa(Manas Veg Yard)",
-        "commodity": "Tomato",
+        "commodity": "Guar",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "14/06/2025",
+        "min_price": "7000",
+        "max_price": "10500",
+        "modal_price": "8000"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Gandhinagar",
+        "market": "Mansa(Manas Veg Yard)",
+        "commodity": "Lemon",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "14/06/2025",
+        "min_price": "5000",
+        "max_price": "5000",
+        "modal_price": "5000"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Gandhinagar",
+        "market": "Kalol",
+        "commodity": "Jowar(Sorghum)",
         "variety": "Other",
         "grade": "FAQ",
         "arrival_date": "14/06/2025",
         "min_price": "2500",
-        "max_price": "3500",
-        "modal_price": "2500"
+        "max_price": "4250",
+        "modal_price": "3400"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Gandhinagar",
+        "market": "Kalol",
+        "commodity": "Paddy(Dhan)(Common)",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "14/06/2025",
+        "min_price": "1350",
+        "max_price": "1875",
+        "modal_price": "1600"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Gandhinagar",
+        "market": "Mansa(Manas Veg Yard)",
+        "commodity": "Green Chilli",
+        "variety": "Other",
+        "grade": "FAQ",
+        "arrival_date": "14/06/2025",
+        "min_price": "3500",
+        "max_price": "4000",
+        "modal_price": "3500"
+      },
+      {
+        "state": "Gujarat",
+        "district": "Gandhinagar",
+        "market": "Mansa(Manas Veg Yard)",
+        "commodity": "Mango",
+        "variety": "Other",
+        "grade": "Medium",
+        "arrival_date": "14/06/2025",
+        "min_price": "2500",
+        "max_price": "5000",
+        "modal_price": "3000"
       }
     ]
   }

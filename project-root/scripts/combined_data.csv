@@ -1,0 +1,42 @@
+state,district,market,commodity,variety,grade,arrival_date,min_price,max_price,modal_price,temperature_c,uv_index,pm2_5,humidity,condition
+Gujarat,Ahmedabad,Dholka,Paddy(Dhan)(Common),Other,FAQ,14/06/2025,1585,2300,2300,37.1,7.1,34.595,45,Overcast
+Gujarat,Ahmedabad,Dholka,Wheat,Other,FAQ,14/06/2025,2385,2575,2505,37.1,7.1,34.595,45,Overcast
+Gujarat,Amreli,Damnagar,Bhindi(Ladies Finger),Bhindi,FAQ,14/06/2025,3550,4550,4200,38.7,8.2,27.01,35,Partly Cloudy
+Gujarat,Amreli,Dhari,Bengal Gram(Gram)(Whole),Other,Non-FAQ,14/06/2025,4825,5500,5260,38.7,8.2,27.01,35,Partly Cloudy
+Gujarat,Amreli,Damnagar,Cabbage,Cabbage,FAQ,14/06/2025,1050,2050,1500,38.7,8.2,27.01,35,Partly Cloudy
+Gujarat,Amreli,Damnagar,Green Chilli,Green Chilly,FAQ,14/06/2025,3650,4550,4050,38.7,8.2,27.01,35,Partly Cloudy
+Gujarat,Amreli,Dhari,Wheat,Lokwan Gujrat,FAQ,14/06/2025,2450,2700,2580,38.7,8.2,27.01,35,Partly Cloudy
+Gujarat,Amreli,Damnagar,Brinjal,Other,FAQ,14/06/2025,1350,2500,2050,38.7,8.2,27.01,35,Partly Cloudy
+Gujarat,Amreli,Damnagar,Guar,Gwar,FAQ,14/06/2025,5350,6550,6000,38.7,8.2,27.01,35,Partly Cloudy
+Gujarat,Amreli,Dhari,Arhar (Tur/Red Gram)(Whole),777 New Ind,Non-FAQ,14/06/2025,5045,6005,5590,38.7,8.2,27.01,35,Partly Cloudy
+Gujarat,Amreli,Damnagar,Cauliflower,Cauliflower,FAQ,14/06/2025,3650,4550,4200,38.7,8.2,27.01,35,Partly Cloudy
+Gujarat,Amreli,Damnagar,Coriander(Leaves),Coriander,FAQ,14/06/2025,4250,5050,4800,38.7,8.2,27.01,35,Partly Cloudy
+Gujarat,Anand,"Anand(Veg,Yard,Anand)",Potato,Potato,FAQ,14/06/2025,750,1250,1000,41.5,7.4,32.56,31,Thundery outbreaks in nearby
+Gujarat,Anand,"Anand(Veg,Yard,Anand)",Tomato,Other,FAQ,14/06/2025,1500,2000,1750,41.5,7.4,32.56,31,Thundery outbreaks in nearby
+Gujarat,Anand,"Anand(Veg,Yard,Anand)",Cauliflower,Cauliflower,FAQ,14/06/2025,1000,1500,1250,41.5,7.4,32.56,31,Thundery outbreaks in nearby
+Gujarat,Anand,"Anand(Veg,Yard,Anand)",Bhindi(Ladies Finger),Bhindi,FAQ,14/06/2025,3000,3500,3250,41.5,7.4,32.56,31,Thundery outbreaks in nearby
+Gujarat,Anand,"Anand(Veg,Yard,Anand)",Bottle gourd,Bottle Gourd,FAQ,14/06/2025,400,500,450,41.5,7.4,32.56,31,Thundery outbreaks in nearby
+Gujarat,Anand,"Anand(Veg,Yard,Anand)",Cabbage,Cabbage,FAQ,14/06/2025,500,700,625,41.5,7.4,32.56,31,Thundery outbreaks in nearby
+Gujarat,Anand,"Anand(Veg,Yard,Anand)",Brinjal,Brinjal,FAQ,14/06/2025,2500,3100,3000,41.5,7.4,32.56,31,Thundery outbreaks in nearby
+Gujarat,Anand,"Anand(Veg,Yard,Anand)",Green Chilli,Green Chilly,FAQ,14/06/2025,1500,2000,1750,41.5,7.4,32.56,31,Thundery outbreaks in nearby
+Gujarat,Anand,"Anand(Veg,Yard,Anand)",Onion,Onion,FAQ,14/06/2025,750,1500,1125,41.5,7.4,32.56,31,Thundery outbreaks in nearby
+Gujarat,Dahod,Dahod,Bengal Gram(Gram)(Whole),Other,FAQ,14/06/2025,5475,5500,5485,39.9,7.3,32.93,30,Patchy light drizzle
+Gujarat,Dahod,Dahod,Maize,Yellow,FAQ,14/06/2025,2150,2310,2250,39.9,7.3,32.93,30,Patchy light drizzle
+Gujarat,Dahod,Dahod,"Sesamum(Sesame,Gingelly,Til)",White,Non-FAQ,14/06/2025,7500,8500,8000,39.9,7.3,32.93,30,Patchy light drizzle
+Gujarat,Dahod,Dahod,Castor Seed,Other,FAQ,14/06/2025,5800,5900,5850,39.9,7.3,32.93,30,Patchy light drizzle
+Gujarat,Dahod,Dahod,Paddy(Dhan)(Common),Paddy fine,Non-FAQ,14/06/2025,1900,1950,1925,39.9,7.3,32.93,30,Patchy light drizzle
+Gujarat,Dahod,Dahod,Wheat,Wheat,FAQ,14/06/2025,2605,2620,2615,39.9,7.3,32.93,30,Patchy light drizzle
+Gujarat,Dahod,Devgadhbaria,Paddy(Dhan)(Common),Common,Non-FAQ,14/06/2025,1500,1520,1510,39.9,7.3,32.93,30,Patchy light drizzle
+Gujarat,Dahod,Dahod,Arhar (Tur/Red Gram)(Whole),Other,Non-FAQ,14/06/2025,5200,5600,5500,39.9,7.3,32.93,30,Patchy light drizzle
+Gujarat,Dahod,Dahod,Maize,White (SAFED),FAQ,14/06/2025,2130,3075,2700,39.9,7.3,32.93,30,Patchy light drizzle
+Gujarat,Dahod,Dahod,Soyabean,Soyabeen,Non-FAQ,14/06/2025,4125,4255,4175,39.9,7.3,32.93,30,Patchy light drizzle
+Gujarat,Gandhinagar,Kalol,Guar Seed(Cluster Beans Seed),Other,FAQ,14/06/2025,4850,5000,4950,37.1,6.8,34.595,45,Overcast
+Gujarat,Gandhinagar,Mansa(Manas Veg Yard),Bottle gourd,Other,FAQ,14/06/2025,250,800,400,37.1,6.8,34.595,45,Overcast
+Gujarat,Gandhinagar,Mansa(Manas Veg Yard),Cabbage,Other,FAQ,14/06/2025,1300,1300,1300,37.1,6.8,34.595,45,Overcast
+Gujarat,Gandhinagar,Kalol,Wheat,Other,FAQ,14/06/2025,2450,2625,2550,37.1,6.8,34.595,45,Overcast
+Gujarat,Gandhinagar,Mansa(Manas Veg Yard),Guar,Other,FAQ,14/06/2025,7000,10500,8000,37.1,6.8,34.595,45,Overcast
+Gujarat,Gandhinagar,Mansa(Manas Veg Yard),Lemon,Other,FAQ,14/06/2025,5000,5000,5000,37.1,6.8,34.595,45,Overcast
+Gujarat,Gandhinagar,Kalol,Jowar(Sorghum),Other,FAQ,14/06/2025,2500,4250,3400,37.1,6.8,34.595,45,Overcast
+Gujarat,Gandhinagar,Kalol,Paddy(Dhan)(Common),Other,FAQ,14/06/2025,1350,1875,1600,37.1,6.8,34.595,45,Overcast
+Gujarat,Gandhinagar,Mansa(Manas Veg Yard),Green Chilli,Other,FAQ,14/06/2025,3500,4000,3500,37.1,6.8,34.595,45,Overcast
+Gujarat,Gandhinagar,Mansa(Manas Veg Yard),Mango,Other,Medium,14/06/2025,2500,5000,3000,37.1,6.8,34.595,45,Overcast
